@@ -1,0 +1,75 @@
+{
+    "product": [
+        {
+            "productName": "samsung",
+            "description": " enhanced featured mobile",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+          },
+        {
+
+            "productName": "nokia",
+            "description": "connecting everywhere",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+        },
+        {
+
+            "productName": "micromax",
+            "description": "nothing like anything",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+        },
+        {
+
+            "productName": "idea",
+            "description": "idea can change your life",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+        },
+        {
+
+            "productName": "samsung",
+            "description": "less featured mobile",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+        },
+        {
+
+            "productName": "redmi",
+            "description": "less prize with high features",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+        },
+        {
+
+            "productName": "infocus",
+            "description": "new featured mobile",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+        },
+        {
+
+            "productName": "oneplus",
+            "description": "featured mobile from abroad",
+            "dateOfManufacture": "03-04-2018",
+            "dateOfExpiry": "03-04-2018",
+            "price" : 100,
+            "inventory": 100
+        }
+    ]
+}

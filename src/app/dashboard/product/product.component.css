@@ -1,0 +1,12 @@
+
+.pro{
+    border:0px;
+    margin:20px;
+    background-color: #ffffff;
+    width:20%;
+    padding: 1em;
+    /* margin-left:200px */
+    margin-top: 0px;
+    height: 100px;
+    position: relative;
+}

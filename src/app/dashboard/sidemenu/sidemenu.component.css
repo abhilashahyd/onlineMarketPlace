@@ -1,0 +1,15 @@
+/* .container {
+    padding: 0;
+    left: 0px;
+    padding-top:60px;
+    width: 150px;
+} */
+.sidebar{
+  /* top: 60px; */
+  width:14%;
+  min-height: 100%;
+  background-color: #5453A4;
+  position: fixed;
+  display: flex;
+  /* z-index: 1; */
+}
