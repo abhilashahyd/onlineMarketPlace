@@ -1,8 +1,9 @@
 <div class="ui-g ui-fluid">
-<div class="ui-g-3" [ngClass]="['pro']" *ngFor="let get of products;let i='index' "  (click)="show(i)" >
-{{get.name}}
-{{get.description}}
-{{get.dateOfManufacture}}
-{{get.dateOfExpiry}}
+<div  *ngFor="let product of products;let i='index' "  (click)="show(i)" >
+  <div class="ui-g-3" [ngClass]="['pro']">
+<h3>{{product.productName}}</h3>
+<p>{{product.description}}</p>
+<span>{{product.dateOfManufacture}}:{{product.dateOfExpiry}}</span>
+</div>
 </div>
 </div>

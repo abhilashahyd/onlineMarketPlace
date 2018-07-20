@@ -34,6 +34,9 @@ const routes: Routes = [
     }, {
       path: AppRoutes.AddStore,
       component: AddstoreComponent
+    }, {
+      path: AppRoutes.AddProduct,
+      component: AddproductComponent
     }]
   },
   {
