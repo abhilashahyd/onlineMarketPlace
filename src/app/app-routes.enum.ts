@@ -5,6 +5,8 @@ export class AppRoutes {
   static readonly Signup = 'signup';
   static readonly Admin = 'admin';
   static readonly Stores = 'stores';
-  static readonly AddStore = 'stores/addstore';
+  static readonly StoreDetails = 'stores/storedetails';
+  static readonly ProductDetails = 'products/productdetails';
+  static readonly StoreOwner = 'storeowner';
   static readonly Products = 'products';
 }

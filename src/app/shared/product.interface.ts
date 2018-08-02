@@ -1,4 +1,5 @@
 export interface Product {
+    uniqueId : string;
     productName:string;
     description:string;
     dateOfManufacture:string;

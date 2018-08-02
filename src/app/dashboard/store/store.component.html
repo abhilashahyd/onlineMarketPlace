@@ -1,3 +1,12 @@
-<p>
-  store works!
-</p>
+<div class="ui-g addbutton">
+  <button class="ui-button-primary" (click)="addStore()" pButton type="button" label="Add a Store"></button>
+</div>
+<div class="ui-g ui-fluid">
+<div  *ngFor="let store of stores;let i='index' "  (click)="show(i)" >
+  <div class="ui-g-3" [ngClass]="['pro']">
+<span class="pro-header">{{store.productName}}</span>
+<p>{{store.description}}</p>
+<span>{{store.dateOfManufacture}}:{{store.dateOfExpiry}}</span>
+</div>
+</div>
+</div>

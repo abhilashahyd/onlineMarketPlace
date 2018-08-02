@@ -21,18 +21,29 @@ dashboard;
            "label":"Dashboard",
            "keyIndex":"01",
            "items":[
+             {
+                 "label":"Add a Store Owner",
+                 "routerLink":["/dashboard/storeowner"]
+             },
               {
                   "label":"View Stores",
                   "routerLink":["/dashboard/stores"]
-              },
-              {
-                  "label":"Add a Store",
-                  "routerLink":["/dashboard/stores/addstore"]
-              },
+              }
+              // ,
+              // {
+              //     "label":"Add a Store",
+              //     "routerLink":["/dashboard/stores/storedetails"]
+              // }
+              ,
               {
                   "label":"Browse Products",
                   "routerLink":"/dashboard/products"
               }
+              // ,
+              // {
+              //     "label":"Add a Product",
+              //     "routerLink":"/dashboard/products/productdetails"
+              // }
            ]}];
   }
 

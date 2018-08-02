@@ -13,12 +13,24 @@ import { AppRoutingModule } from './app.routing';
 import { DropdownModule } from 'primeng/dropdown';
 import {PanelMenuModule} from 'primeng/panelmenu';
 // import {MenuItem} from 'primeng/api';
-
+import {
+  ButtonModule,
+  // CalendarModule,
+  InputTextModule,
+  // MegaMenuModule,
+  // MenuItem,
+  // OverlayPanelModule,
+  // PanelMenuModule,
+  SelectButtonModule,
+  TabViewModule
+} from 'primeng/primeng';
+import {InputTextareaModule} from 'primeng/inputtextarea';
 import { FormsModule } from '@angular/forms';
 import { ProductComponent } from './dashboard/product/product.component';
 import { StoreComponent } from './dashboard/store/store.component';
-import { AddstoreComponent } from './dashboard/store/addstore/addstore.component';
-import { AddproductComponent } from './dashboard/product/addproduct/addproduct.component';
+import { StoreownerComponent } from './dashboard/storeowner/storeowner.component';
+import { StoredetailsComponent } from './dashboard/store/storedetails/storedetails.component';
+import { ProductdetailsComponent } from './dashboard/product/productdetails/productdetails.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,8 +41,9 @@ import { AddproductComponent } from './dashboard/product/addproduct/addproduct.c
     HeaderComponent,
     ProductComponent,
     StoreComponent,
-    AddstoreComponent,
-    AddproductComponent
+    StoreownerComponent,
+    StoredetailsComponent,
+    ProductdetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +51,10 @@ import { AddproductComponent } from './dashboard/product/addproduct/addproduct.c
     AppRoutingModule,
     DropdownModule,
     FormsModule,
-    PanelMenuModule
+    PanelMenuModule,
+    ButtonModule,
+    InputTextModule,
+    InputTextareaModule
     // MenuItem
   ],
   providers: [],

@@ -1,7 +1,11 @@
+
+  <div class="ui-g addbutton">
+    <button class="ui-button-primary" (click)="addProduct()" pButton type="button" label="Add a Product"></button>
+  </div>
 <div class="ui-g ui-fluid">
 <div  *ngFor="let product of products;let i='index' "  (click)="show(i)" >
-  <div class="ui-g-3" [ngClass]="['pro']">
-<h3>{{product.productName}}</h3>
+  <div class="ui-g-3" [ngClass]="['pro']" >
+<span class="pro-header">{{product.productName}}</span>
 <p>{{product.description}}</p>
 <span>{{product.dateOfManufacture}}:{{product.dateOfExpiry}}</span>
 </div>
